@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: auto;
+}
+table {
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+td {
+  padding: 5px;
+}
+
+tr:nth-of-type(even) {
+  background-color: lightgray;
+}
+tr:hover {
+  background-color: lightgreen;
+}
+tr:nth-child(1) {
+  color: white;
+  background-color: gray;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.card {
+  font-size: 25px;
+  font-family: serif;
+}
